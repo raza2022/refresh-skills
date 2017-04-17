@@ -7,3 +7,4 @@ altered = name
 #if same line the semicolon
 
 name= 'developer'; value = "$"
+smile = ":smile:"
