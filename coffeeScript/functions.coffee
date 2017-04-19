@@ -15,3 +15,13 @@ test("tset", "best")
 # i bored just commit with an emo
 
 square = (x) -> x * x
+
+#  here is default arguments
+times = (a = 1, b = 2 ) -> a * b
+
+#  also support n length same arguments
+
+count = (nums...) ->
+result = 0
+nums.forEach (n) -> result =+ n
+result result
